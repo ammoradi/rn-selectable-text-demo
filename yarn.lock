@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@astrocoders/react-native-selectable-text@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@astrocoders/react-native-selectable-text/-/react-native-selectable-text-1.0.0.tgz#578d5d38fd72e08eb0b12296416713290b71a66d"
-  integrity sha512-W/790OLnPfqh+kRr7tlgcZGaESux+02L0C9ElJbmuGlniUEkM8bK9Tg3dfrst8ObTTnrIaAPZgPA1LC8apnI1w==
+"@astrocoders/react-native-selectable-text@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@astrocoders/react-native-selectable-text/-/react-native-selectable-text-1.1.0.tgz#721e4f63560d7981e2b7305f23e720aac5e2ef33"
+  integrity sha512-H5pa6oQdFgZOKPecFokW4XEGwW+J2X4/shdDXWisWkJSYWxXYQYkRRj2RHwWgxPa5X01ZYbIjDOqUfQHGnkTGw==
 
 "@babel/code-frame@^7.0.0":
   version "7.0.0"

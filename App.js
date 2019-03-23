@@ -21,19 +21,18 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-        // Use normally, it is a drop-in replacement for react-native/Text
         <SelectableText
-          menuItems={['Foo', 'Bar']}
-          /* Called when the user taps in a item of the selection menu, eventType is the label and content the selected text portion */
-          onSelection={({ eventType, content }) => {}}
-          /* iOS only (RGB) */
-          highlightColor={[255, 0, 0]}
-        >
-          I crave star damage
-        </SelectableText>
+          menuItems={["Foo", "Bar"]}
+          /* 
+            Called when the user taps in a item of the selection menu:
+            - eventType: (string) is the label
+            - content: (string) the selected text portion
+            - selectionStart: (int) is the start position of the selected text
+            - selectionEnd: (int) is the end position of the selected text
+          */
+          onSelection={({ eventType, content, selectionStart, selectionEnd }) => {}}
+          value="I crave star damage hbgrlbglergbrlgberlgbergberlgkqogiqg'iorjg'qoierghioqerngoireqgorigjoqrhng"
+        />
       </View>
     );
   }
