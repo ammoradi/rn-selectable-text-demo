@@ -8,14 +8,16 @@
   },
   "dependencies": {
     "@astrocoders/react-native-selectable-text": "^1.1.0",
-    "react": "16.6.3",
-    "react-native": "0.57.8"
+    "react": "16.8.5",
+    "react-native": "0.59.2"
   },
   "devDependencies": {
+    "@babel/plugin-external-helpers": "^7.2.0",
     "babel-jest": "24.5.0",
     "jest": "24.5.0",
-    "metro-react-native-babel-preset": "0.53.1",
-    "react-test-renderer": "16.6.3"
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.6.3",
+    "schedule": "0.4.0"
   },
   "jest": {
     "preset": "react-native"
